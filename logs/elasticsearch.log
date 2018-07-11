@@ -1,0 +1,190 @@
+[2018-07-10T22:20:11,580][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-07-10T22:20:12,064][INFO ][o.e.e.NodeEnvironment    ] [1FEENSH] using [1] data paths, mounts [[user (D:)]], net usable_space [74.6gb], net total_space [112.7gb], types [NTFS]
+[2018-07-10T22:20:12,064][INFO ][o.e.e.NodeEnvironment    ] [1FEENSH] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-07-10T22:20:12,064][INFO ][o.e.n.Node               ] [1FEENSH] node name derived from node ID [1FEENSH4RFKI1Dj71mkNfA]; set [node.name] to override
+[2018-07-10T22:20:12,064][INFO ][o.e.n.Node               ] [1FEENSH] version[6.3.1], pid[10668], build[default/zip/eb782d0/2018-06-29T21:59:26.107521Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-07-10T22:20:12,070][INFO ][o.e.n.Node               ] [1FEENSH] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\root\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\elk\elasticsearch-6.3.1, -Des.path.conf=D:\elk\elasticsearch-6.3.1\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2018-07-10T22:20:14,255][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [aggs-matrix-stats]
+[2018-07-10T22:20:14,255][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [analysis-common]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [ingest-common]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-expression]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-mustache]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-painless]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [mapper-extras]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [parent-join]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [percolator]
+[2018-07-10T22:20:14,256][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [rank-eval]
+[2018-07-10T22:20:14,257][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [reindex]
+[2018-07-10T22:20:14,257][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [repository-url]
+[2018-07-10T22:20:14,257][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [transport-netty4]
+[2018-07-10T22:20:14,258][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [tribe]
+[2018-07-10T22:20:14,258][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-core]
+[2018-07-10T22:20:14,258][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-deprecation]
+[2018-07-10T22:20:14,258][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-graph]
+[2018-07-10T22:20:14,259][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-logstash]
+[2018-07-10T22:20:14,259][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-ml]
+[2018-07-10T22:20:14,259][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-monitoring]
+[2018-07-10T22:20:14,260][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-rollup]
+[2018-07-10T22:20:14,260][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-security]
+[2018-07-10T22:20:14,260][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-sql]
+[2018-07-10T22:20:14,261][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-upgrade]
+[2018-07-10T22:20:14,261][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-watcher]
+[2018-07-10T22:20:14,262][INFO ][o.e.p.PluginsService     ] [1FEENSH] no plugins loaded
+[2018-07-10T22:20:17,911][INFO ][o.e.x.s.a.s.FileRolesStore] [1FEENSH] parsed [0] roles from file [D:\elk\elasticsearch-6.3.1\config\roles.yml]
+[2018-07-10T22:20:18,511][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/11380] [Main.cc@109] controller (64 bit): Version 6.3.1 (Build 4d0b8f0a0ef401) Copyright (c) 2018 Elasticsearch BV
+[2018-07-10T22:20:18,824][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-07-10T22:20:19,022][INFO ][o.e.d.DiscoveryModule    ] [1FEENSH] using discovery type [zen]
+[2018-07-10T22:20:19,907][INFO ][o.e.n.Node               ] [1FEENSH] initialized
+[2018-07-10T22:20:19,907][INFO ][o.e.n.Node               ] [1FEENSH] starting ...
+[2018-07-10T22:20:21,184][INFO ][o.e.t.TransportService   ] [1FEENSH] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-07-10T22:20:24,260][INFO ][o.e.c.s.MasterService    ] [1FEENSH] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{-7_pE0_hTh-E-KQHCyg14Q}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-07-10T22:20:24,266][INFO ][o.e.c.s.ClusterApplierService] [1FEENSH] new_master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{-7_pE0_hTh-E-KQHCyg14Q}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{-7_pE0_hTh-E-KQHCyg14Q}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2018-07-10T22:20:24,296][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [1FEENSH] Failed to clear cache for realms [[]]
+[2018-07-10T22:20:24,331][INFO ][o.e.g.GatewayService     ] [1FEENSH] recovered [0] indices into cluster_state
+[2018-07-10T22:20:24,443][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2018-07-10T22:20:24,461][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.watches] for index patterns [.watches*]
+[2018-07-10T22:20:24,501][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.watch-history-7] for index patterns [.watcher-history-7*]
+[2018-07-10T22:20:24,531][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2018-07-10T22:20:24,571][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2018-07-10T22:20:24,600][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2018-07-10T22:20:24,621][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2018-07-10T22:20:24,644][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2018-07-10T22:20:24,681][INFO ][o.e.l.LicenseService     ] [1FEENSH] license [b59bdc46-6d8c-47db-8653-090ce25f7211] mode [basic] - valid
+[2018-07-10T22:20:25,103][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [1FEENSH] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-07-10T22:20:25,109][INFO ][o.e.n.Node               ] [1FEENSH] started
+[2018-07-10T22:37:41,347][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2018-07-10T22:37:41,347][INFO ][o.e.n.Node               ] [1FEENSH] stopping ...
+[2018-07-10T22:37:41,357][INFO ][o.e.x.w.WatcherService   ] [1FEENSH] stopping watch service, reason [shutdown initiated]
+[2018-07-10T22:37:41,677][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/11380] [Main.cc@148] Ml controller exiting
+[2018-07-10T22:37:41,677][INFO ][o.e.n.Node               ] [1FEENSH] stopped
+[2018-07-10T22:37:41,677][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2018-07-10T22:37:41,677][INFO ][o.e.n.Node               ] [1FEENSH] closing ...
+[2018-07-10T22:37:41,687][INFO ][o.e.n.Node               ] [1FEENSH] closed
+[2018-07-10T22:39:31,054][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-07-10T22:39:31,116][INFO ][o.e.e.NodeEnvironment    ] [1FEENSH] using [1] data paths, mounts [[user (D:)]], net usable_space [74.4gb], net total_space [112.7gb], types [NTFS]
+[2018-07-10T22:39:31,117][INFO ][o.e.e.NodeEnvironment    ] [1FEENSH] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-07-10T22:39:31,119][INFO ][o.e.n.Node               ] [1FEENSH] node name derived from node ID [1FEENSH4RFKI1Dj71mkNfA]; set [node.name] to override
+[2018-07-10T22:39:31,120][INFO ][o.e.n.Node               ] [1FEENSH] version[6.3.1], pid[5776], build[default/zip/eb782d0/2018-06-29T21:59:26.107521Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-07-10T22:39:31,120][INFO ][o.e.n.Node               ] [1FEENSH] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\root\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\elk\elasticsearch-6.3.1, -Des.path.conf=D:\elk\elasticsearch-6.3.1\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [aggs-matrix-stats]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [analysis-common]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [ingest-common]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-expression]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-mustache]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-painless]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [mapper-extras]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [parent-join]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [percolator]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [rank-eval]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [reindex]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [repository-url]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [transport-netty4]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [tribe]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-core]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-deprecation]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-graph]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-logstash]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-ml]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-monitoring]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-rollup]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-security]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-sql]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-upgrade]
+[2018-07-10T22:39:33,380][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-watcher]
+[2018-07-10T22:39:33,388][INFO ][o.e.p.PluginsService     ] [1FEENSH] no plugins loaded
+[2018-07-10T22:39:37,376][INFO ][o.e.x.s.a.s.FileRolesStore] [1FEENSH] parsed [0] roles from file [D:\elk\elasticsearch-6.3.1\config\roles.yml]
+[2018-07-10T22:39:38,040][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/7800] [Main.cc@109] controller (64 bit): Version 6.3.1 (Build 4d0b8f0a0ef401) Copyright (c) 2018 Elasticsearch BV
+[2018-07-10T22:39:38,341][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-07-10T22:39:38,560][INFO ][o.e.d.DiscoveryModule    ] [1FEENSH] using discovery type [zen]
+[2018-07-10T22:39:39,356][INFO ][o.e.n.Node               ] [1FEENSH] initialized
+[2018-07-10T22:39:39,360][INFO ][o.e.n.Node               ] [1FEENSH] starting ...
+[2018-07-10T22:39:40,200][INFO ][o.e.t.TransportService   ] [1FEENSH] publish_address {10.0.75.1:9300}, bound_addresses {[::]:9300}
+[2018-07-10T22:39:40,220][INFO ][o.e.b.BootstrapChecks    ] [1FEENSH] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2018-07-10T22:39:43,319][INFO ][o.e.c.s.MasterService    ] [1FEENSH] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{MISQqNQ0Q8C-cbUxox2VxA}{10.0.75.1}{10.0.75.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-07-10T22:39:43,327][INFO ][o.e.c.s.ClusterApplierService] [1FEENSH] new_master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{MISQqNQ0Q8C-cbUxox2VxA}{10.0.75.1}{10.0.75.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{MISQqNQ0Q8C-cbUxox2VxA}{10.0.75.1}{10.0.75.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2018-07-10T22:39:43,630][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [1FEENSH] Failed to clear cache for realms [[]]
+[2018-07-10T22:39:43,646][INFO ][o.e.l.LicenseService     ] [1FEENSH] license [b59bdc46-6d8c-47db-8653-090ce25f7211] mode [basic] - valid
+[2018-07-10T22:39:43,656][INFO ][o.e.g.GatewayService     ] [1FEENSH] recovered [0] indices into cluster_state
+[2018-07-10T22:39:43,770][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [1FEENSH] publish_address {10.0.75.1:9200}, bound_addresses {[::]:9200}
+[2018-07-10T22:39:43,770][INFO ][o.e.n.Node               ] [1FEENSH] started
+[2018-07-10T22:49:19,872][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [logstash] for index patterns [logstash-*]
+[2018-07-10T22:49:43,573][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2018-07-10T22:49:43,573][INFO ][o.e.n.Node               ] [1FEENSH] stopping ...
+[2018-07-10T22:49:43,586][INFO ][o.e.x.w.WatcherService   ] [1FEENSH] stopping watch service, reason [shutdown initiated]
+[2018-07-10T22:49:44,047][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/7800] [Main.cc@148] Ml controller exiting
+[2018-07-10T22:49:44,047][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2018-07-10T22:49:44,047][INFO ][o.e.n.Node               ] [1FEENSH] stopped
+[2018-07-10T22:49:44,055][INFO ][o.e.n.Node               ] [1FEENSH] closing ...
+[2018-07-10T22:49:44,073][INFO ][o.e.n.Node               ] [1FEENSH] closed
+[2018-07-10T22:50:07,122][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-07-10T22:50:07,179][INFO ][o.e.e.NodeEnvironment    ] [1FEENSH] using [1] data paths, mounts [[user (D:)]], net usable_space [74.1gb], net total_space [112.7gb], types [NTFS]
+[2018-07-10T22:50:07,179][INFO ][o.e.e.NodeEnvironment    ] [1FEENSH] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-07-10T22:50:07,181][INFO ][o.e.n.Node               ] [1FEENSH] node name derived from node ID [1FEENSH4RFKI1Dj71mkNfA]; set [node.name] to override
+[2018-07-10T22:50:07,181][INFO ][o.e.n.Node               ] [1FEENSH] version[6.3.1], pid[5784], build[default/zip/eb782d0/2018-06-29T21:59:26.107521Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-07-10T22:50:07,182][INFO ][o.e.n.Node               ] [1FEENSH] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\root\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=D:\elk\elasticsearch-6.3.1, -Des.path.conf=D:\elk\elasticsearch-6.3.1\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [aggs-matrix-stats]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [analysis-common]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [ingest-common]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-expression]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-mustache]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [lang-painless]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [mapper-extras]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [parent-join]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [percolator]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [rank-eval]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [reindex]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [repository-url]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [transport-netty4]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [tribe]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-core]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-deprecation]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-graph]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-logstash]
+[2018-07-10T22:50:09,238][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-ml]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-monitoring]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-rollup]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-security]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-sql]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-upgrade]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] loaded module [x-pack-watcher]
+[2018-07-10T22:50:09,243][INFO ][o.e.p.PluginsService     ] [1FEENSH] no plugins loaded
+[2018-07-10T22:50:12,925][INFO ][o.e.x.s.a.s.FileRolesStore] [1FEENSH] parsed [0] roles from file [D:\elk\elasticsearch-6.3.1\config\roles.yml]
+[2018-07-10T22:50:13,543][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/2492] [Main.cc@109] controller (64 bit): Version 6.3.1 (Build 4d0b8f0a0ef401) Copyright (c) 2018 Elasticsearch BV
+[2018-07-10T22:50:13,869][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-07-10T22:50:14,110][INFO ][o.e.d.DiscoveryModule    ] [1FEENSH] using discovery type [zen]
+[2018-07-10T22:50:14,891][INFO ][o.e.n.Node               ] [1FEENSH] initialized
+[2018-07-10T22:50:14,892][INFO ][o.e.n.Node               ] [1FEENSH] starting ...
+[2018-07-10T22:50:15,777][INFO ][o.e.t.TransportService   ] [1FEENSH] publish_address {10.0.75.1:9300}, bound_addresses {[::]:9300}
+[2018-07-10T22:50:15,798][INFO ][o.e.b.BootstrapChecks    ] [1FEENSH] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2018-07-10T22:50:18,850][INFO ][o.e.c.s.MasterService    ] [1FEENSH] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{bRyvD1x4RjqUABACW8vOQA}{10.0.75.1}{10.0.75.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-07-10T22:50:18,850][INFO ][o.e.c.s.ClusterApplierService] [1FEENSH] new_master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{bRyvD1x4RjqUABACW8vOQA}{10.0.75.1}{10.0.75.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {1FEENSH}{1FEENSH4RFKI1Dj71mkNfA}{bRyvD1x4RjqUABACW8vOQA}{10.0.75.1}{10.0.75.1:9300}{ml.machine_memory=8516689920, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2018-07-10T22:50:19,158][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [1FEENSH] Failed to clear cache for realms [[]]
+[2018-07-10T22:50:19,178][INFO ][o.e.l.LicenseService     ] [1FEENSH] license [b59bdc46-6d8c-47db-8653-090ce25f7211] mode [basic] - valid
+[2018-07-10T22:50:19,188][INFO ][o.e.g.GatewayService     ] [1FEENSH] recovered [0] indices into cluster_state
+[2018-07-10T22:50:19,330][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [1FEENSH] publish_address {10.0.75.1:9200}, bound_addresses {[::]:9200}
+[2018-07-10T22:50:19,330][INFO ][o.e.n.Node               ] [1FEENSH] started
+[2018-07-10T22:54:14,486][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-07-10T22:54:14,525][INFO ][o.e.c.m.MetaDataCreateIndexService] [1FEENSH] [.kibana] creating index, cause [auto(update api)], templates [kibana_index_template:.kibana], shards [1]/[1], mappings [doc]
+[2018-07-10T22:54:14,604][INFO ][o.e.c.m.MetaDataUpdateSettingsService] [1FEENSH] updating number_of_replicas to [0] for indices [.kibana]
+[2018-07-10T22:54:14,618][INFO ][o.e.c.m.MetaDataUpdateSettingsService] [1FEENSH] [.kibana/LCGnYSSSR3O4u9woBbRkLA] auto expanded replicas to [0]
+[2018-07-10T22:54:14,744][INFO ][o.e.c.r.a.AllocationService] [1FEENSH] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana][0]] ...]).
+[2018-07-10T22:54:14,820][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-07-10T22:54:15,719][INFO ][o.e.c.m.MetaDataIndexTemplateService] [1FEENSH] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-07-10T22:54:15,746][INFO ][o.e.c.m.MetaDataMappingService] [1FEENSH] [.kibana/LCGnYSSSR3O4u9woBbRkLA] update_mapping [doc]
+[2018-07-10T22:57:08,615][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [1FEENSH] caught exception while handling client http traffic, closing connection [id: 0x3e32df56, L:/127.0.0.1:9200 - R:/127.0.0.1:65205]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]

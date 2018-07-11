@@ -1,0 +1,78 @@
+[2018-07-10T22:49:14,654][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"D:/elk/logstash-6.3.1/data/queue"}
+[2018-07-10T22:49:14,669][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"D:/elk/logstash-6.3.1/data/dead_letter_queue"}
+[2018-07-10T22:49:14,815][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-07-10T22:49:14,859][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"5b999ad2-946f-4b8c-b669-842e4d1b3ba1", :path=>"D:/elk/logstash-6.3.1/data/uuid"}
+[2018-07-10T22:49:15,429][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.3.1"}
+[2018-07-10T22:49:18,843][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>8, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-07-10T22:49:19,275][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://127.0.0.1:9200/]}}
+[2018-07-10T22:49:19,283][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://127.0.0.1:9200/, :path=>"/"}
+[2018-07-10T22:49:19,489][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://127.0.0.1:9200/"}
+[2018-07-10T22:49:19,549][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-07-10T22:49:19,549][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-07-10T22:49:19,569][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//127.0.0.1"]}
+[2018-07-10T22:49:19,589][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-07-10T22:49:19,613][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-07-10T22:49:19,659][INFO ][logstash.outputs.elasticsearch] Installing elasticsearch template to _template/logstash
+[2018-07-10T22:49:20,289][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x7f1ec775 sleep>"}
+[2018-07-10T22:49:20,359][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2018-07-10T22:49:20,672][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-07-10T22:52:03,114][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-07-10T22:52:03,726][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.3.1"}
+[2018-07-10T22:52:06,879][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>8, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-07-10T22:52:07,319][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://127.0.0.1:9200/]}}
+[2018-07-10T22:52:07,319][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://127.0.0.1:9200/, :path=>"/"}
+[2018-07-10T22:52:07,592][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://127.0.0.1:9200/"}
+[2018-07-10T22:52:07,680][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-07-10T22:52:07,682][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-07-10T22:52:07,712][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//127.0.0.1"]}
+[2018-07-10T22:52:07,728][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-07-10T22:52:07,758][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-07-10T22:52:08,349][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x225da48d sleep>"}
+[2018-07-10T22:52:08,409][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2018-07-10T22:52:08,740][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-07-10T22:57:58,400][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-07-10T22:57:58,926][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.3.1"}
+[2018-07-10T22:58:02,172][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>8, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-07-10T22:58:02,589][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://127.0.0.1:9200/]}}
+[2018-07-10T22:58:02,600][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://127.0.0.1:9200/, :path=>"/"}
+[2018-07-10T22:58:02,769][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://127.0.0.1:9200/"}
+[2018-07-10T22:58:02,826][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-07-10T22:58:02,830][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-07-10T22:58:02,849][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//127.0.0.1"]}
+[2018-07-10T22:58:02,866][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-07-10T22:58:02,889][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-07-10T22:58:03,486][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x52cf20f4 run>"}
+[2018-07-10T22:58:03,555][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2018-07-10T22:58:03,970][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-07-10T23:06:33,495][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-07-10T23:06:34,060][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.3.1"}
+[2018-07-10T23:06:37,149][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>8, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-07-10T23:06:37,542][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://127.0.0.1:9200/]}}
+[2018-07-10T23:06:37,551][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://127.0.0.1:9200/, :path=>"/"}
+[2018-07-10T23:06:37,727][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://127.0.0.1:9200/"}
+[2018-07-10T23:06:37,773][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-07-10T23:06:37,783][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-07-10T23:06:37,804][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//127.0.0.1"]}
+[2018-07-10T23:06:37,813][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-07-10T23:06:37,833][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-07-10T23:06:38,408][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4e6b1372 run>"}
+[2018-07-10T23:06:38,479][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2018-07-10T23:06:38,764][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-07-10T23:40:31,201][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-07-10T23:40:31,858][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.3.1"}
+[2018-07-10T23:40:32,120][ERROR][logstash.agent           ] Failed to execute action {:action=>LogStash::PipelineAction::Create/pipeline_id:main, :exception=>"LogStash::ConfigurationError", :message=>"Expected one of #, input, filter, output at line 1, column 1 (byte 1) after ", :backtrace=>["D:/elk/logstash-6.3.1/logstash-core/lib/logstash/compiler.rb:42:in `compile_imperative'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/compiler.rb:50:in `compile_graph'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/compiler.rb:12:in `block in compile_sources'", "org/jruby/RubyArray.java:2486:in `map'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/compiler.rb:11:in `compile_sources'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/pipeline.rb:49:in `initialize'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/pipeline.rb:167:in `initialize'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/pipeline_action/create.rb:40:in `execute'", "D:/elk/logstash-6.3.1/logstash-core/lib/logstash/agent.rb:305:in `block in converge_state'"]}
+[2018-07-10T23:40:32,445][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-07-10T23:43:06,884][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-07-10T23:43:07,377][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.3.1"}
+[2018-07-10T23:43:09,143][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>8, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-07-10T23:43:09,537][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2018-07-10T23:43:09,547][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2018-07-10T23:43:09,736][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2018-07-10T23:43:09,796][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-07-10T23:43:09,804][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-07-10T23:43:09,827][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2018-07-10T23:43:09,852][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-07-10T23:43:09,877][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-07-10T23:43:10,446][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x1848fa48 run>"}
+[2018-07-10T23:43:10,520][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2018-07-10T23:43:10,807][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
